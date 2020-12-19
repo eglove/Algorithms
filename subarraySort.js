@@ -1,3 +1,4 @@
+// Find smallest subarray that can be sorted to sort the larger array.
 // O(n) Time - O(1) Space
 function subarraySort(array) {
     let subArrayFound = false;
