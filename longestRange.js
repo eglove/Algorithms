@@ -40,7 +40,7 @@ function largestRange(array) {
 let array = [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6];
 console.log(largestRange(array));
 
-// Expects []
+// Expects [1, 1]
 array = [1];
 console.log(largestRange(array));
 
