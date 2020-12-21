@@ -8,7 +8,7 @@ function largestRange(array) {
         nums[num] = true;
     })
 
-    array.forEach((num, i) => {
+    array.forEach(num => {
         if (nums[num]) {
             let left = num - 1;
             let right = num + 1;
